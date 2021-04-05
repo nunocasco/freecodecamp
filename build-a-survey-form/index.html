@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <meta name="viewport" content="width=device-width">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <h1 id="title">My programming skills improvement</h1>  
+    <p id="description"><em>Thank you for taking the time to help me manage my coding study</em></p>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+            />     
+            <label id="email-label" for="email">Email</label>
+            <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="youremail@here.com"
+                required
+            />
+            <label id="number-label" for="age">Age</label>
+            <input
+                type="number"
+                name="age"
+                id="number"
+                class="form-control"
+                placeholder="Enter your age"
+                min="1"
+                max="99"
+                required
+            />
+        </div>
+        <div class="form-group" id="dropdown">
+            <p>What language/skills did you enjoy the most?</p>
+            <label id="dropdown" for="codepreferences"></label>
+            <select name="codepreferences" id="dropdown">
+                <option value="Html">Html</option>
+                <option value="Css">Css</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="None of the above">None of the abobe</option>
+            </select>
+
+        </div>
+        <div class="form-group" id="after">
+            <p>What should i do next, after finish all courses?</p>
+            <input type="radio" id="after" name="user-recommend" value="Stay"/>
+                <label id="after" for="user-recommend">Stay around and improve my skills.</label><br>
+            <input type="radio" id="after" name="user-recommend" value="look"/>
+                <label id="after" for="user-recommend">Find another school to improve my skills.</label><br>
+            <input type="radio" id="after" name="user-recommend" value="goforit"/>
+                <label id="after" for="user-recommend">Apply for an IT job!</label>
+        </div>
+        <div class="form-group" id="checkboxes">
+            <p>What other programming languages do you value most?</p>
+            <input type="checkbox" id="Ruby" name="Ruby" value="best"/>
+                <label id="Ruby" for="user-recommend">Ruby</label><br>  
+            <input type="checkbox" id="Java" name="Java" value="best"/>
+                <label id="Java" for="user-recommend">Java</label><br>
+            <input type="checkbox" id="C++" name="C++" value="best"/>
+                <label id="C++" for="user-recommend">C++</label><br>
+            <input type="checkbox" id="Swift" name="Swift" value="best"/>
+                <label id="Swift" for="user-recommend">Swift</label><br>
+            <input type="checkbox" id="Elm" name="Elm" value="best"/>
+                <label id="Elm" for="user-recommend">Elm</label><br>
+            <input type="checkbox" id="PHP" name="PHP" value="best"/>
+                <label id="PHP" for="user-recommend">PHP</label><br>
+            <input type="checkbox" id="COBOL" name="COBOL" value="best"/>
+                <label id="COBOL" for="user-recommend">COBOL</label>
+        </div>   
+        <div class="form-group" id="comments">
+            <p>Please add some comment or present me with some tips!</p>
+            <label id="comments" for="user-comments"></label>
+            <textarea 
+                id="comments" 
+                name="user-comments" 
+                class="input-textarea" 
+                placeholder="Comment here...">
+            </textarea>
+        </div>
+        <div class="form-group" id="submits">
+            <p>Thanks for your time!</p>
+            <button id="submit" type="submit" class="submitbutton">Submit!             
+            </button>
+        </div>
+    </form>
+</html>

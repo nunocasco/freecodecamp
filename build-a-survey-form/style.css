@@ -1,0 +1,90 @@
+html {
+    background-color: darkolivegreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    font-size: 35px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:snow
+}
+
+#description {
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+
+#survey-form {
+    margin:0 auto; 
+    width:400px ;
+    padding:20px;
+    background:#a5cfda;
+    border:5px solid #333;
+}
+
+.form-control {
+    display: block;
+    width: 357px;
+    height:5px;
+    padding: 5%;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 10px;
+}
+ 
+.name-label, .email-label, .number-label {
+    display: block;
+    margin-bottom: 45px;
+}
+
+#dropdown {
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:burlywood;
+    padding: 10px;   
+}
+#after {
+    margin-bottom: 10px;;
+}
+#checkboxes {
+    display: block;
+    font-size: 15px;
+    text-align: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:burlywood;
+    padding: 5px;      
+}
+#checkboxes p {
+    text-align: center;
+}
+#comments {
+
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#submits {
+    display: block;
+    font-size: 15px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:burlywood;
+
+}
